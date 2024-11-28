@@ -2,4 +2,12 @@ A- BLUE
 B- YELLOW
 C- BLUE
 D- BETA
-
+E- Si, BETA y GAMMA
+F- Conflictos a la hora de proceder con el merge a causa de contenidos diferentes en el mismo archivo en TESTING.
+G-
+H- Hace que el que realizo el ultimo push -f sobreescriba los cambios del repositorio porque push -f forza el git a pushear si o si.
+I- Primero nos tenemos que ubicar en la rama main/master, luego tenemos que pullear el contenido, y luego desde main mergear con TESTING, y luego pushearlo:
+git checkout main
+git pull
+git merge TESTING
+git push origin main
